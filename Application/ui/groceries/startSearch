@@ -1,0 +1,9 @@
+void startSearch(String searchString) {
+  searching = searchString.isNotEmpty;
+
+  searchIngredients = currentIngredients
+    .where((ingredient) => ingredient.name?.contains(searchString) == true)
+    .toList();
+
+  setState(() {});
+}

@@ -1,0 +1,1 @@
+final ingredientStream = repository.watchAllIngredients();
